@@ -1,0 +1,11 @@
+.header__container {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.header__logo {
+    margin-top: 34px;
+    width: 254.84px;
+    height: 68.94px;    
+}
