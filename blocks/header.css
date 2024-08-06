@@ -6,6 +6,23 @@
 
 .header__logo {
     margin-top: 34px;
-    width: 254.84px;
-    height: 68.94px;    
+}
+
+.header__image{
+    max-width: 255px;
+    max-height: 69px; 
+}
+
+@media (max-width: 1023px) and (min-width: 544px) {
+    .header__image {
+        width: 254px;
+        height: 66px;
+    }
+}
+
+@media (max-width: 543px){
+    .header__image {
+        width: 188px;
+        height: 52px;
+    }
 }
