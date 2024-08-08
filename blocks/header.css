@@ -14,6 +14,9 @@
 }
 
 @media (max-width: 1023px) and (min-width: 544px) {
+    .header__logo{
+        margin: 30px auto 0;
+    }
     .header__image {
         width: 254px;
         height: 66px;
@@ -21,6 +24,9 @@
 }
 
 @media (max-width: 543px){
+    .header__logo{
+        margin: 20px auto 0;
+    }
     .header__image {
         width: 188px;
         height: 52px;

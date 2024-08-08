@@ -1,5 +1,6 @@
-.content__containe{
-    
+.content__container{
+    width: 830px;
+    margin: 92px auto 0 148px;
 }
 
 .content__title{
@@ -7,48 +8,80 @@
     font-size: 3.375rem;
     font-weight: 900;
     line-height: 3.625rem;
-    margin: 92px auto 0 148px;
-    width: 830px;
-    height: 173.92px;
+    margin: 0 0;
 }
 
 .content__quote {
-    display: flex;
     font-weight: 400;
     font-family: 'Inter-Regular';
-    font-size: 24px;
-    line-height: 34px;
+    font-size: 1.5rem;
+    line-height: 2.125rem;
     margin: 39.98px 0 0;
+    width: 738px;
 }
 
 .content__quote-author {
     font-weight: 400;
     font-family: 'Inter-Regular';
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 400;
-    line-height: 34px;
+    line-height: 2.125px;
     text-align: right;
     margin: 10px 0 0;
+    width: 732px;
 }
 
 .content__text {
     font-family: 'Inter-Regular';
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
-    line-height: 26px;
+    line-height: 1.625rem;
     margin: 32px 0 0;
+    width: 722px;
 }
 
 @media (max-width: 1023px) and (min-width: 544px) {
+    .content__container {
+        margin: 90px auto 0;
+        width: 720px;
+    }
     .content__title {
+        font-size: 2.813rem;
+        line-height: 3.063rem;
         width: 707px;
-        height: 147px;
+    }
+    .content__quote {
+        margin: 50px auto 0;
+    }
+    .content__quote-author{
+        margin: 26px auto 0;
     }
 }
 
 @media (max-width: 543px){
-    .content__title {
+    .content__container {
+        margin: 64px auto 0;
         width: 288px;
-        height: 175px;
+    }
+    .content__title {
+        font-size: 2rem;
+        line-height: 2.188rem;
+    }
+    .content__quote {
+        margin: 40px auto 0;
+        width: 288px;
+        line-height: 2.125rem;
+    }
+    .content__quote-author{
+        margin: 10px auto 0;
+        width: 288px;
+    }
+    .content__text {
+        font-family: 'Inter-Regular';
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.625rem;
+        margin: 32px 0 0;
+        width: 288px;
     }
 }

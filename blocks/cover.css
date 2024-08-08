@@ -4,7 +4,7 @@
     line-height: 6.25rem; 
     font-family: 'Inter-Black';
     text-align: center;
-    width: 720px; 
+    width: 720px;
     height: 200px;
     margin: 91px auto 0;
 }
@@ -33,8 +33,13 @@
         line-height: 4.938rem; 
         width: 530px;
         height: 158px;
+        margin: 90px auto 0;
     }
-    .cover__image{
+    .cover__subtitle {
+        margin: 25px auto 0;
+    }
+    .cover__image {
+        margin: 30px auto 0;
         width: 100%
     }
 }
@@ -45,14 +50,17 @@
         line-height: 2.75rem;
         width: 228px;
         height: 88px;
+        margin: 50px auto 0;
     }
     .cover__subtitle {
         font-size: 1rem;
         line-height: 1.25rem; 
         width: 288px;
         height: 40px;
+        margin: 16px auto 0;
     }
     .cover__image{
-        width: 100%
+        width: 100%;
+        margin: 40px auto 0;
     }
 }
