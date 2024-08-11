@@ -40,7 +40,28 @@
     width: 722px;
 }
 
-@media (max-width: 1023px) and (min-width: 544px) {
+
+@media (max-width: 1023px) and (min-width: 720px) {
+    .content__container {
+        margin: 90px auto 0;
+        width: 720px;
+    }
+    .content__title {
+        font-size: 2.813rem;
+        line-height: 3.063rem;
+        width: 707px;
+        height: 147px;
+    }
+    .content__quote {
+        margin: 50px auto 0;
+    }
+    .content__quote-author{
+        margin: 26px auto 0;
+    }
+}
+
+
+@media (max-width: 719px) and (min-width: 544px) {
     .content__container {
         margin: 90px auto 0;
         width: 100%;
