@@ -37,6 +37,7 @@
     }
     .cover__subtitle {
         margin: 25px auto 0;
+        width: 100%;
     }
     .cover__image {
         margin: 30px auto 0;
