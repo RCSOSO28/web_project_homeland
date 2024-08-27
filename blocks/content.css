@@ -61,7 +61,7 @@
     margin: 92px auto 0;
 }
 
-.content__places__place {
+.content__places-place {
     display: grid;
     grid-template-columns: min-content auto;
     grid-template-rows: min-content 460px min-content;
