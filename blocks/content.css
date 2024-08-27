@@ -376,3 +376,8 @@
 .content__places__place__image:hover {
     filter: brightness(50%);
 }
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
