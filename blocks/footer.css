@@ -1,19 +1,19 @@
 .footer__copyright {
     width: 194px;
     height: 16px;
-    margin: 92px auto 0;
+    margin: 142px auto 0;
     padding-bottom: 24px;
     font-family: 'Inter-Regular';
 }
 
 @media (max-width: 1023px) and (min-width: 544px) {
     .footer__copyright {
-        margin: 88px auto 0;
+        margin: 250px auto 0;
     }
 }
 
 @media (max-width: 543px){
     .footer__copyright{
-        margin: 64px auto 0;
+        margin: 0px auto 0;
     }
 }
