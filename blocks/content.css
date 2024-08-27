@@ -191,7 +191,7 @@
         width: 720px;
         margin: 88px auto 0;
     }
-    .content__places__place {
+    .content__places-place {
         display: grid;
         grid-template-columns: 340px auto;
         grid-template-rows: 68px 340px min-content;
@@ -272,7 +272,7 @@
         width: 100%;
         margin: 62px auto 0;
     }    
-    .content__places__place {
+    .content__places-place {
         display: flex;
         flex-direction: column;
         row-gap: 30px;
@@ -340,7 +340,7 @@
         width: 100%;
         margin: 62px auto 0;
     }    
-    .content__places__place {
+    .content__places-place {
         display: flex;
         flex-direction: column;
     }
